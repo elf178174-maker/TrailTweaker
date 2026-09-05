@@ -1,4 +1,4 @@
-**TrailTweaker** is a serverside fabric mod that lets you configure cooldown of trailspawners and change if trail vaults can be reopend.
+**TrailTweaker** is a serverside fabric mod that lets you configure cooldown of trailspawners and change if trail vaults can be reopened.
 
 We created this mod because we couldnt find an existing mod that added theese features for 26.1 fabric.
 
