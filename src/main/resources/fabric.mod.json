@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "trailspawnercooldown",
+	"version": "1.1.0",
+	"name": "Trail Spawner Cooldown",
+	"description": "Server-side Fabric mod that makes the Trial Spawner cooldown configurable and lets Trial Vaults be opened more than once. Clients do not need to install anything.",
+	"authors": [
+		"Katte"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.katte.trailspawnercooldown.TrailSpawnerCooldownMod"
+		]
+	},
+	"mixins": [
+		"trailspawnercooldown.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1",
+		"java": ">=25"
+	}
+}
